@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Manga</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d1b1931df.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!----------- Header ----->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+        <div class="logo">
+         <a href="index.html"><img src="Images/logo.png" width="100px"></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mangas.html">Mangas</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+       <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+        </div>
+      </div>
+      </div>
+
+<!------- acccount  ----->
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="Images/image1.png" width="100%"> 
+      </div>
+      <div class="col-2">
+        <div class="form-container">
+          <div class="form-btn">
+          <span>Login</span> 
+          <hr class="indicator">
+          </div>
+          <form>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="btn">Log In</button>
+            <a href="#">Forgot Password?</a>
+            <a href="#" class="sing-up">Sing up</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ <!------ footer ------->
+ 
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App For Android and ios mobile</p>
+        <div class="app-logo">
+          <img src="Images/play-store.jpg">
+          <img src="Images/app-store.jpg">
+        </div>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupon</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021</p>
+  </div>
+</div>
+  
+  <!------ for togglemenu ----->
+  
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight = "200px";
+      }
+      else{
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+  </body>
+</html>
