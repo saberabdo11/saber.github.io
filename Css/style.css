@@ -31,7 +31,6 @@ p{
   color: #555;
 }
 .container{
-  height: 100vh;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -47,7 +46,6 @@ p{
 }
 .col-2 img{
   width: 80%;
-  padding: 50px 0;
 }
 col-2 h1{
   font-size: 50px;
@@ -71,6 +69,7 @@ col-2 h1{
 }
 .header .row{
   margin-top: 70px;
+  height: 100vh;
 }
 
 /*------- Categories -------*/
