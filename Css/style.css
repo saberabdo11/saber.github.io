@@ -43,8 +43,7 @@ p{
   justify-content: space-between;
 }
 .col-2{
-  flex-basis: 50%;
-  min-width: 300px;
+  width: 45%;
 }
 .col-2 img{
   width: 80%;
