@@ -31,7 +31,7 @@ p{
   color: #555;
 }
 .container{
-  min-height: 100vh;
+  height: 100vh;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
