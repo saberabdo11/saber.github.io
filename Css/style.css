@@ -66,9 +66,10 @@ col-2 h1{
 }
 .header{
   background: radial-gradient(#fff,#4fc3f7);
+  height: 100vh;
+  
 }
 .header .row{
-  height: 100vh;
 }
 
 /*------- Categories -------*/
